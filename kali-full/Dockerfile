@@ -1,3 +1,5 @@
+# Kali Linux image with "kali-linux-full" metapackages
+
 FROM kalilinux/kali-linux-docker:latest
 
 RUN apt-get update\
