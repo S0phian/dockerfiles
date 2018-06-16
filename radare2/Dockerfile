@@ -9,7 +9,7 @@
 # Then run "r2" or other Radare2 commands inside the container.
 #
 # Before running the application,
-# create ~/workdir on your host and make it world-accessible ("chmod a+xwr").
+# create ~/workspace on your host and make it world-accessible ("chmod a+xwr").
 #
 # This Dockerfile is based on the official Radare2 Dockerfile file at
 # https://github.com/radare/radare2/blob/master/Dockerfile
