@@ -79,7 +79,7 @@ ENV HOME /home/nonroot
 
 # Create working directory
 RUN mkdir /home/nonroot/workspace
-WORKDIR /home/nonroot/workdir
+WORKDIR /home/nonroot/workspace
 
 # Setup r2pm
 RUN r2pm init && \
