@@ -16,8 +16,8 @@
 #
 
 
-#Using Ubuntu 16.04 as base image.
-FROM ubuntu:16.04
+# Using debian 9 as base image.
+FROM debian:9
 
 # Radare version
 ENV R2_VERSION master
