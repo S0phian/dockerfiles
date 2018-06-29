@@ -21,7 +21,7 @@ RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh
 SHELL ["/bin/zsh", "-c"]
 
 # Change oh-my-zsh theme for ROOT to "bira" from default "robbyrussell", to show host name on CUI.
-RUN sed -i 's/robbyrussell/bira' .zshrc
+RUN sed -i 's/robbyrussell/bira/' .zshrc
 
 # Base command for container
 CMD ["/bin/zsh"]
